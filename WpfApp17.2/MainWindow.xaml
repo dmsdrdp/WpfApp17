@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp17._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WpfApp17._2"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock x:Name="txb"/>
+            <local:ColorPicker Width="660" Height="73"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
